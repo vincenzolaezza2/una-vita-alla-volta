@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Life at a Time | Help Me Save Those Who Have No One</title>
+    <style>
+        :root {
+            --gofundme-green: #02a95c;
+            --gofundme-green-hover: #028a4c;
+            --text-dark: #292929;
+            --bg-light: #f7f7f7;
+            --white: #ffffff;
+            --gray-border: #e0e0e0;
+            --gray-text: #555555;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.7;
+        }
+
+        header {
+            background: var(--white);
+            border-bottom: 1px solid var(--gray-border);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+
+        .lang-switch {
+            background: var(--white);
+            border: 1px solid var(--gray-border);
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+            color: var(--text-dark);
+        }
+
+        .lang-switch:hover {
+            border-color: var(--gofundme-green);
+            color: var(--gofundme-green);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: var(--white);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            overflow: hidden;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            color: var(--text-dark);
+            line-height: 1.3;
+        }
+
+        .hero-img {
+            width: 100%;
+            height: 420px;
+            background-color: #e2e8f0;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-bottom: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #718096;
+            font-style: italic;
+        }
+
+        .hero-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .story {
+            font-size: 1.1rem;
+            color: var(--gray-text);
+            margin-bottom: 40px;
+        }
+
+        .story p {
+            margin-bottom: 20px;
+        }
+
+        .campaign-box {
+            background: #f9f9f9;
+            border: 1px solid var(--gray-border);
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .donate-btn {
+            display: inline-block;
+            width: 100%;
+            background-color: var(--gofundme-green);
+            color: var(--white);
+            text-align: center;
+            padding: 16px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+            box-shadow: 0 4px 10px rgba(2, 169, 92, 0.2);
+        }
+
+        .donate-btn:hover {
+            background-color: var(--gofundme-green-hover);
+        }
+
+        .lang-section {
+            display: none;
+        }
+
+        .lang-section.active {
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #718096;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--gray-border);
+            margin-top: 50px;
+            background: var(--white);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 15px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">vincenzolaezza.eu</a>
+        <button class="lang-switch" id="langToggle" onclick="toggleLanguage()">Switch to IT</button>
+    </header>
+
+    <div class="container">
+        
+        <!-- ENGLISH VERSION (Default) -->
+        <div id="section-en" class="lang-section active">
+            <h1>One Life at a Time: Help Me Save Those Who Have No One</h1>
+            
+            <div class="hero-img">
+                <!-- Se vuoi inserire una foto, sostituisci il testo dentro il div con: <img src="nome-foto.jpg" alt="Campaign Image"> -->
+                <span>Campaign Image Placeholder</span>
+            </div>
+
+            <div class="story">
+                <p>Help me keep caring for those who have no one.</p>
+                <p>I love cats because, in some way, I see myself in them. For over ten years I have looked after a colony of about twenty cats. I feed them, keep track of how they're doing, and when I find one in desperate condition, I take it to the vet and try to save it. Over the years, I've managed to save almost every cat I was able to reach in time.</p>
+                <p>Today I have sixteen former strays living in my home, rescued from almost certain death. Because of their medical conditions, they could never survive a return to the colony.</p>
+                <p>For some of them I've paid for multiple surgeries, spending as much as 800 euros on a single animal. I've always tried to give them a real chance at life, especially when they were young and had a good chance of pulling through. I've never had the means to do it all on my own: I've asked many people for help, and on a few occasions even members of parliament who care deeply about cats, and who made real contributions.</p>
+                <p>These days, food alone costs me more than 200 euros a month, and on top of that come vet bills and everything else they need.</p>
+                <p>It always feels like I can't keep up, and yet somehow, so far, I've managed to carry on. But it's getting harder and harder. That is why I'm asking for a hand today.</p>
+                <p>I'd also like to share something I've learned over these years: the sweetest cats, the ones who win over everyone who sees them, are not necessarily the ones with the best odds of survival. Often it's the opposite. There are cats who are invisible, wary, terrified of humans and even of other cats, and without constant help they would have practically no chance at all.</p>
+                <p>For seven years, for example, I have fed a cat every single day who lives in terror of approaching people and other cats. I don't know how he could have survived without this steady care.</p>
+                <p>It is above all for them that I keep going: for the ones nobody notices, who won't let anyone near them, who face the cold, the hunger and the elements with no one to turn to.</p>
+                <p>What I do is informal and discreet. I don't advertise it, and I only talk about it with people I believe could genuinely help me continue. I'm not looking for visibility, and I have no grand ambitions: I simply don't want to be forced to stop what I do.</p>
+                <p>If you can contribute, even a small amount, you will help me keep going. No gift is too small: every contribution turns into food, care, and a chance to survive for animals who would otherwise be left to their fate.</p>
+                <p>A cat who receives steady care can live for many years. One left alone, exposed to hunger, disease and the elements, often doesn't make it past the first few years of life.</p>
+                <p>Help me keep this small daily work going. For them, the difference can be enormous.</p>
+            </div>
+
+            <div class="campaign-box">
+                <a href="https://www.gofundme.com/f/una-vita-alla-volta-aiutatemi-a-salvare-chi-non-ha-nessuno?attribution_id=sl:53d269f0-423d-4ba4-99fb-16e02ad94c8f&lang=it_IT&ts=1794100925&utm_campaign=man_ss_icons&utm_content=amp30-control&utm_medium=customer&utm_source=copy_link" class="donate-btn" target="_blank">Donate on GoFundMe</a>
+            </div>
+        </div>
+
+        <!-- ITALIAN VERSION (Secondary) -->
+        <div id="section-it" class="lang-section">
+            <h1>Una vita alla volta: aiutatemi a salvare chi non ha nessuno</h1>
+            
+            <div class="hero-img">
+                <!-- Se vuoi inserire una foto, sostituisci il testo dentro il div con: <img src="nome-foto.jpg" alt="Immagine Campagna"> -->
+                <span>Spazio Immagine Campagna</span>
+            </div>
+
+            <div class="story">
+                <p>Aiutatemi a continuare a prendermi cura di chi non ha nessuno.</p>
+                <p>Amo i felini perché, in qualche modo, mi riconosco in loro. Da oltre dieci anni mi occupo di una colonia felina di circa venti gatti. Li sfamo, li seguo e, quando ne trovo uno in condizioni disperate, cerco di salvarlo portandolo dal veterinario. Nel corso degli anni sono riuscito a salvarne quasi tutti quelli che ho potuto raggiungere in tempo.</p>
+                <p>Oggi ospito nella mia abitazione sedici gatti ex randagi, sottratti a una morte quasi certa. Sono animali che, a causa delle patologie di cui soffrono, non potrebbero più sopravvivere tornando nella loro colonia.</p>
+                <p>Per alcuni ho sostenuto anche interventi chirurgici multipli, arrivando a spendere fino a 800 euro per un singolo animale. Ho sempre cercato di offrire loro una possibilità concreta di vivere, soprattutto quando erano giovani e avevano buone probabilità di farcela. Non ho mai avuto le risorse per fare tutto da solo: ho chiesto aiuto a tante persone e, in alcune occasioni, anche a parlamentari particolarmente sensibili alla causa dei felini, che hanno contribuito concretamente.</p>
+                <p>Oggi, soltanto per il cibo, sostengo una spesa superiore ai 200 euro al mese. E a questa si aggiungono le necessità veterinarie e tutto ciò che serve per assisterli.</p>
+                <p>Sembra sempre di non farcela, eppure, in un modo o nell'altro, finora sono riuscito ad andare avanti. Ma sta diventando sempre più difficile. Per questo, oggi, ho bisogno di una mano.</p>
+                <p>Vorrei raccontarvi anche una cosa che ho imparato in questi anni: non sono necessariamente i gatti più teneri, quelli che conquistano immediatamente chiunque li guardi, ad avere maggiori possibilità di sopravvivere. Spesso accade il contrario. Ci sono animali invisibili, diffidenti, terrorizzati dagli esseri umani e persino dagli altri gatti, che senza un aiuto costante non avrebbero praticamente alcuna possibilità.</p>
+                <p>Da sette anni, per esempio, alimento quotidianamente un gatto che vive nel terrore di avvicinarsi agli esseri umani e agli altri felini. Non so come avrebbe potuto sopravvivere senza questa assistenza continuativa.</p>
+                <p>È soprattutto per loro che continuo a farlo: per quelli che nessuno nota, che non si lasciano avvicinare, che affrontano il freddo, la fame e le intemperie senza avere nessuno a cui chiedere aiuto.</p>
+                <p>La mia è un'attività informale, discreta, che non pubblicizzo e di cui parlo soltanto con persone che ritengo possano concretamente aiutarmi a proseguirla. Non cerco visibilità e non ho particolari ambizioni: vorrei semplicemente non essere costretto a interrompere quello che faccio.</p>
+                <p>Se potete contribuire, anche con una piccola somma, mi aiuterete a continuare. Non esistono aiuti troppo piccoli: ogni contributo si trasforma in cibo, assistenza e possibilità di sopravvivere per animali che, altrimenti, sarebbero lasciati al loro destino.</p>
+                <p>Un gatto assistito con continuità può vivere molti anni. Uno lasciato solo, esposto alla fame, alle malattie e alle intemperie, spesso non supera i primi anni di vita.</p>
+                <p>Aiutatemi a non interrompere questa piccola opera quotidiana. Per loro, la differenza può essere enorme.</p>
+            </div>
+
+            <div class="campaign-box">
+                <a href="https://www.gofundme.com/f/una-vita-alla-volta-aiutatemi-a-salvare-chi-non-ha-nessuno?attribution_id=sl:53d269f0-423d-4ba4-99fb-16e02ad94c8f&lang=it_IT&ts=1794100925&utm_campaign=man_ss_icons&utm_content=amp30-control&utm_medium=customer&utm_source=copy_link" class="donate-btn" target="_blank">Dona su GoFundMe</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 vincenzolaezza.eu &bull; All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleLanguage() {
+            const sectionEn = document.getElementById('section-en');
+            const sectionIt = document.getElementById('section-it');
+            const langToggle = document.getElementById('langToggle');
+
+            if (sectionEn.classList.2026 !== undefined || sectionEn.classList.contains('active')) {
+                // Switch to Italian
+                sectionEn.classList.remove('active');
+                sectionIt.classList.add('active');
+                langToggle.textContent = 'Switch to EN';
+            } else {
+                // Switch to English
+                sectionIt.classList.remove('active');
+                sectionEn.classList.add('active');
+                langToggle.textContent = 'Switch to IT';
+            }
+        }
+    </script>
+</body>
+</html>
